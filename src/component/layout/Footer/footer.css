@@ -1,0 +1,101 @@
+.footer-widget-wrap {
+    background: #f42f2c;
+    color: #fff;
+}
+
+
+.footer-area .single-footer-widget h4 { color: #fff;     margin-bottom: 15px;}
+.footer-bottom-wrap { background: #222; color: #fff;}
+
+@media (max-width: 991px){
+    .single-footer-widget { margin-bottom: 30px;}
+}
+
+.single-footer-widget .hr-list li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(238,238,238,0.3);
+}
+
+
+@media (max-width: 991px){
+    .single-footer-widget {   margin-bottom: 30px;}
+}
+
+
+.footer-area .number {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+
+.single-footer-widget .navbar-form {  width: 100%;}
+
+.single-footer-widget .navbar-form .add-on {
+    background: #f9f9ff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+
+.single-footer-widget .navbar-form .form-control {
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: #f9f9ff;
+    border: 1px solid #f9f9ff;
+}
+
+
+.single-footer-widget .navbar-form .genric-btn { padding: 0px;}
+
+.footer-area .genric-btn {
+    background: #f42f2c;
+    border: none;
+    border-radius: 57px;
+    height: 36px;
+    line-height: 41px;
+}
+
+.genric-btn {
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+}
+
+
+.single-footer-widget .navbar-form .lnr {
+    padding: 11px;
+    font-weight: 900;
+    font-size: 13px !important;
+    color: #fff;
+}
+
+
+footer .footerIcon{
+    display: flex;
+    gap: 30px;
+}
+
+footer .footerIcon li:first-child{ background-color: blue;}
+footer .footerIcon li{
+    background: #87005e;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+footer .footerIcon li:last-child{ background-color: rgb(255, 0, 0);}
+footer .footerIcon li a{ color: white;}

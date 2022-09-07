@@ -1,0 +1,42 @@
+.banner-area {
+    background: url("../../../images/Header/hero-bg.jpg") center center/cover;
+    background-size: cover;
+}
+
+@media (max-width: 736px) and (min-width: 415px){ 
+    .banner-content {  margin-top: 240px;}
+}
+
+@media (max-width: 1024px){ 
+    .banner-content { margin-top: 100px;}
+}
+
+.banner-content h6 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+@media (max-width: 767px){
+    .banner-content h1 {    
+        font-size: 40px;
+    }
+}
+
+.banner-content p {
+    max-width: 515px;
+    margin-bottom: 30px;
+}
+
+
+.banner-content .primary-btn:hover {
+    background: #222;
+    color: #fff;
+}
+

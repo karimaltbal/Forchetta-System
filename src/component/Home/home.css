@@ -1,0 +1,91 @@
+
+.home-about-left p {
+    margin: 20px 0;
+    max-width: 490px;
+}
+
+@media (max-width: 991px){
+    .home-about-left {  margin-bottom: 50px;}
+}
+
+.home-about-left .primary-btn:hover {
+    box-shadow: 0px 20px 20px 0px rgb(245 63 81 / 20%);
+}
+
+
+
+
+
+/***********************************/
+
+.reservation-area {
+    background: url("../../images/Home/reservation/reservation-bg.jpg") no-repeat center/cover;
+}
+
+.reservation-area .overlay-bg { background: rgba(17,22,24,0.75);}
+
+.reservation-area .reservation-right, .reservation-area .reservation-left {  position: relative;}
+
+@media (max-width: 991px){
+    .reservation-area .reservation-right {   margin-top: 50px;}
+}
+
+.reservation-area .reservation-right .form-wrap { background: #fff;  padding: 100px 40px;}
+
+.reservation-area .reservation-right .form-wrap .form-control {
+    border-radius: 0px;
+    margin-bottom: 10px;
+    border-color: #eeeeee;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0.575rem 0.75rem;
+    color: #999999;
+}
+
+
+.reservation-area .reservation-right .primary-btn {
+    text-transform: capitalize !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+
+
+
+
+/************************************/
+.single-blog .thumb { overflow: hidden;}
+
+.single-blog .thumb img {
+    width: 100%;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+        border-radius: 5px;
+
+}
+
+.single-blog .date {
+    background-color: #000;
+    color: #fff;
+    font-weight: 100;
+    padding: 2px 15px;
+    width: 115px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.single-blog a { color: rgb(255, 255, 255);    border-radius: 5px;}
+
+@media (max-width: 991px){
+    .single-blog {  margin-bottom: 30px;}
+}

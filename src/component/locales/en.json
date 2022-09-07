@@ -1,0 +1,86 @@
+{
+    "home": {
+        "navbar": {
+            "nav1": "HOME",
+            "nav2": "ABOUT",
+            "nav3": "MENU",
+            "nav4": "Gallery",
+            "nav5": "EVENTS",
+            "nav6": "BLOG",
+            "nav7": "CONTACT",
+            "btn": "LogIn"
+        },
+        "header": {
+            "title": "Wide Options of Choice",
+            "heading": "Delicious Recipes",
+            "description": "“LOVE VISITING WITH CHEF LUCA AND TASTING ALL HIS CREATIONS! VERY NICE HIDDEN SECRET IN UPTOWN CHARLOTTE.”",
+            "btn": "Check Our Menu"
+        },
+        "about": {
+            "title": "About Our Story",
+            "description": "Intrigue your culinary senses with our authentic Italian menu, prepared by Chef Luca Annunziata. Each dish hand crafted, featuring many dishes straight from the streets of Naples, Italy. Select from the lighter side such as soup and salad, shared appetizers or delectable entrées. Pair your meal with an elegant wine, house infused cocktail or a gourmet coffee drink.",
+            "btn": "VIEW FULL MENU",
+            "companylist": {
+                "title": "Our Clients",
+                "description": "The establishments we prepared food for them"
+            },
+            "ourmission": {
+                "title": "Our-Mission",
+                "description1": "Our mission we forchetta is to revive all occasions and parties no matter how big they are.",
+                "description2": "We accommodate a large number of people on all occasions. It is available to us."
+            },
+            "ourvission": {
+                "title": "Our-Vision",
+                "description": "Our goal: that in the near future forchetta will become the largest catrin in the United Arab Emirates."
+            }
+        },
+        "menu": {
+            "menuNav": {"nav1": "Main Course", "nav2":"Chicken", "nav3":"Seafood", "nav4":"Pasta", "nav5":"Appetizers", "nav6":"Vegetarian", "nav7":"Salads", "nav8":"Dessert", "nav9":"Beverage"},
+            "title": "What kind of Foods we serve for you",
+            "description": "THE NEW WAY TO PRONOUNCE “DELICIOUS ITALIAN FOOD.”"
+        },
+        "reservation": {
+            "title": "Reserve Your Seats to Confirm if You Come with Your Family",
+            "description": "Who are in extremely love with eco friendly system",
+            "placeholder": {"name": "Your Name", "email": "Your Email Address", "phone": "Phone Number", "date": "Select Date", "event": "Select Event"},
+            "btn": "Make Reservation"
+        },
+        "blog": {
+            "title": "Latest From Our Blog",
+            "description": "View the latest news about our restaurant"
+        },
+        "event": {
+            "title": "Our Events",
+            "description": "Organize Your Events in our Restaurant"
+        },
+        "gallery": {
+            "title": "Our Gallery",
+            "description": "Photos of the restaurant and food",
+            "menuNav": {"nav1": "Restaurant", "nav2":"The Food"}
+        },
+        "contact": {
+            "plaseholder": {
+                "name": "Enter your name",
+                "email": "Enter your Email",
+                "subject": "Your subject",
+                "messege": "Your Messege"
+            },
+            "btn": "Send Message"
+        },
+        "footer": {
+            "about": {
+                "title": "ABOUT US",
+                "description": "Intrigue your culinary senses with our authentic Italian menu, prepared by Chef Luca Annunziata. Each dish hand crafted, featuring many dishes straight from the streets of Naples, Italy."
+            },
+            "conact": {
+                "title": "Contact Us",
+                "address": "Shop 03 main road al asayel- Al Khalid building- um suqeim st- al qouz 4 - Dubai"
+            },
+            "media": {
+                "title": "social media",
+                "description": "Communicate with us and know our data through social media."
+            }
+        },
+        "nodata": "No Data Please Please Go Back"
+    }
+}

@@ -1,0 +1,28 @@
+.ourMession h3, .ourVession h3{
+    text-align: center;
+    margin-top: 45px;
+}
+.ourMession h3::after, .ourVession h3::after{
+    height: 2px;
+    display: block;
+    width: 10%;
+    background: #f42a28;
+    content: '';
+    margin: auto;
+    margin-top: 8px;
+}
+.ourMession h3 span, .ourVession h3 span{
+        color: #f42a28;
+}
+
+
+.ourMession .single-defination, .ourVession .single-defination{
+
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px #0000002b;
+    margin-bottom: 20px;
+        background: #f9f9f9;
+
+}

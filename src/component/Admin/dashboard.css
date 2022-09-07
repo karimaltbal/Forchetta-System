@@ -1,0 +1,117 @@
+.dashboard {
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.dashboardContainer {
+  border-left: 1px solid rgba(0, 0, 0, 0.13);
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 0;
+}
+
+.dashboardContainer > h1 {
+  color: rgba(0, 0, 0, 0.733);
+  font: 300 2rem "Poppins";
+  text-align: center;
+  width: 50%;
+  padding: 1.5rem;
+  margin: auto;
+}
+
+.dashboardSummary {
+  margin: 2rem 0;
+}
+
+.dashboardSummary > div {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dashboardSummary > div > p {
+  background-color: rgb(244 47 44);
+  color: white;
+  font: 300 1.3rem "Poppins";
+  text-align: center;
+  padding: 1.5rem;
+  width: 100%;
+  margin: 0 2rem;
+}
+.dashboardSummaryBox2 > a {
+  color: rgb(255, 255, 255);
+  font: 300 2rem "Poppins";
+  text-align: center;
+  background-image: url("../../images/Dashboard/event.jpg");
+  background-size: cover;
+  text-decoration: none;
+  padding: 1.5rem;
+  width: 25%;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dashboardSummaryBox2 > a p{
+    background-color: rgb(0 0 0 / 76%);
+    width: 100%;
+    border-radius: 25px;
+    padding: 11px 0;
+    font-size: 2vmax;
+}
+
+.dashboardSummaryBox2 > a:first-child {
+  background-image: url("../../images/Dashboard/menu.jpg");
+  background-size: cover;
+}
+
+.dashboardSummaryBox2 .blog{
+  background-image: url("../../images/Dashboard/blog.jpg");
+  background-size: cover;
+}
+
+.dashboardSummaryBox2 .company{
+  background-image: url("../../images/Dashboard/company.jpg");
+  background-size: cover;
+}
+
+.dashboardSummaryBox2 > a:last-child {
+  background-image: url("../../images/Dashboard/user.webp");
+  background-size: cover;
+}
+
+.lineChart {
+  width: 80%;
+  margin: auto;
+}
+
+.doughnutChart {
+  width: 30vmax;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboardContainer {
+    border-left: none;
+  }
+
+  .dashboardSummary > div > p {
+    margin: 0;
+  }
+
+  .dashboardSummaryBox2 > a {
+    padding: 0.5rem;
+    margin: 1rem;
+    font: 300 0.9rem "Poppins";
+  }
+}

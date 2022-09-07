@@ -1,0 +1,117 @@
+.header-top {
+    padding: 20px 0px;
+}
+.main-menu {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*.navbar-nav {padding: 15px;}*/
+.navbar-collapse {
+    flex-basis: 83%;
+    flex-grow: 1;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 260px;
+    background: rgba(0,0,0,0.8);
+    justify-content: center;
+    padding: 12px 0;
+        left: 0;
+            z-index: 1;
+
+
+
+}
+.navbar-toggler{ border-color: white;}
+.navbar-brand{color: white;}
+.navbar-brand:hover{color: white;}
+
+@media (min-width: 992px){
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        position: inherit;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .navbar-brand{ display: none;}
+    .closeBar{ display: none;}
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 8px 0px 8px;
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        outline: none;
+    }
+
+    #header select{margin-top: 5px;}
+
+}
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 10px 22px 10px 15px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    outline: none;
+    font-weight: 400;
+}
+
+#header select{
+    background: #dc3545;
+    color: white;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #dc3545;
+}
+
+.active{
+  color: #dc3545 !important;;
+ }
+
+
+.closeBar{
+    background-color: #dc3545;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+        border: 1px solid black;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) { 
+    .langBtn{
+        margin-top: 10px !important;
+    }
+}
+
+
+
+
+
+.spicailNav{
+    position: fixed;
+    background: #000000cf;
+    max-width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}

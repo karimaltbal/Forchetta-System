@@ -1,0 +1,45 @@
+.companyList .owl-carousel .owl-item img {
+    height: 200px;
+}
+
+
+.paginationBox {
+    margin: 2vmax 0;
+    display: flex;
+    justify-content: center;
+    padding: 4vmax 0;
+}
+
+.paginationBox .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.paginationBox .page-item:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.paginationBox .page-item {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.178);
+    cursor: pointer;
+    list-style: none;
+    padding: 1vmax 1vmax;
+    transition: all .3s;
+}
+
+.paginationBox .page-link {
+    color: #505050;
+    font: 300 0.7vmax "Poppins";
+    text-decoration: none;
+    transition: all .3s;
+    background: transparent;
+    border: none;
+}
+.paginationBox .pageLinkActive {
+    color: #fff;
+}
+.paginationBox .pageItemActive {
+    background-color: tomato;
+}

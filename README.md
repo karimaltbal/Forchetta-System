@@ -53,3 +53,19 @@ The administration can manage all these things:
 ### Dashboard Create Menu Page:
 ![screencapture-forchettauae-admin-newMenu-2022-09-11-13_14_51](https://user-images.githubusercontent.com/67224257/189525325-568b5dc7-4a59-41f0-a15e-12296bfc0083.png)
 
+
+
+
+## Built with 
+
+- [HTML](https://html.com/)
+- [CSS](https://css-tricks.com/) 
+- [Bootstrap](http://getbootstrap.com/)
+- [JavaScript](https://www.javascript.com/)
+- [React](https://reactjs.org/)
+- [Api](http://getbootstrap.com/)
+- [Axios lib](https://www.api.org/)
+- [material-ui](https://mui.com/)
+- [i18next lib]([https://mui.com/](https://www.i18next.com/))
+- [react-redux](https://react-redux.js.org/)
+- [redux-thunk](https://redux.js.org/usage/writing-logic-thunks)

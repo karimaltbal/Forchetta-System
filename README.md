@@ -66,6 +66,6 @@ The administration can manage all these things:
 - [Api](http://getbootstrap.com/)
 - [Axios lib](https://www.api.org/)
 - [material-ui](https://mui.com/)
-- [i18next lib]([https://mui.com/](https://www.i18next.com/))
+- [i18next lib](https://www.i18next.com/))
 - [react-redux](https://react-redux.js.org/)
 - [redux-thunk](https://redux.js.org/usage/writing-logic-thunks)
